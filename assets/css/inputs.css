@@ -1,0 +1,104 @@
+
+.input-1 {
+    position: relative;
+    top: 2rem;
+    left: 11rem;
+    transform: translate(-50%, -50%);
+ }
+ 
+ .input-1 input {
+    background-color: transparent;
+    outline: 0px;
+    border: 0;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-bottom: 2px solid #FFE5E5;
+    caret-color: #D9D9D9;
+    position: relative;
+ } 
+ 
+ .input-1 input::placeholder {
+   transition:  1s;
+ }
+ 
+ .input-1 input:focus::placeholder {
+   opacity: 0;
+ }
+ 
+ .input-1 .box {
+   position: relative;
+   width: 0%;
+   height: 2px;
+   bottom: 0px;
+ }
+
+
+.input-2 {
+    position: relative;
+    top: 3rem;
+    left: 11rem;
+    transform: translate(-50%, -50%);
+ }
+ 
+ .input-2 input {
+       background-color: transparent;
+    outline: 0px;
+    border: 0;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-bottom: 2px solid #FFE5E5;
+    caret-color: #D9D9D9;
+    position: relative;
+ } 
+ 
+ .input-2 input::placeholder {
+   transition:  1s;
+ }
+ 
+ .input-2 input:focus::placeholder {
+   opacity: 0;
+ }
+ 
+ .input-2 .box {
+   position: relative;
+   width: 0%;
+   height: 2px;
+   bottom: 0px;
+ }
+
+
+.input-3 {
+    position: relative;
+    top: 4rem;
+    left: 11rem;
+    transform: translate(-50%, -50%);
+ }
+ 
+ .input-3 input {
+       background-color: transparent;
+    outline: 0px;
+    border: 0;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-bottom: 2px solid #FFE5E5;
+    caret-color: #D9D9D9;
+    position: relative;
+ } 
+ 
+ .input-3 input::placeholder {
+   transition:  1s;
+ }
+ 
+ .input-3 input:focus::placeholder {
+   opacity: 0;
+ }
+ 
+ .input-3 .box {
+   position: relative;
+   width: 0%;
+   height: 2px;
+   bottom: 0px;
+ }

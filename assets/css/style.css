@@ -1,0 +1,629 @@
+:root{
+    --primary-color : rgb(139, 113, 112);
+    overflow-x: hidden;
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: 'theme-font-black';
+    src: url('./fonts/NeueHaasUnica-Black.ttf') format('woff2'),
+    /* Add more sources if needed (e.g., ttf, svg, eot) */
+  }
+@font-face {
+    font-family: 'theme-font-regular';
+    src: url('./fonts/NeueHaasUnica-Regular.ttf') format('woff2'),
+    /* Add more sources if needed (e.g., ttf, svg, eot) */
+  }
+@font-face {
+    font-family: 'theme-font-medium';
+    src: url('./fonts/NeueHaasUnica-Medium.ttf') format('woff2'),
+    /* Add more sources if needed (e.g., ttf, svg, eot) */
+  }
+
+
+
+.container-custom{
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.total-logo{
+    display: inline-flex;
+    height: 102.458px;
+    padding: 12.965px 16.981px 14.571px 14.112px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10.441px;
+    flex-shrink: 0;
+}
+
+
+nav{
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center !important;
+}
+
+nav ul{
+    margin-left: -1.5%;
+    padding: 10px 20px;
+    margin-top: 1%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 25px;
+    color: #FFF !important;
+    font-family: 'theme-font-regular', sans-serif;
+    font-size: 22.5px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+}
+
+
+.navbar{
+    background: var(--primary-color) !important;
+}
+
+
+.head-img{
+    width: 600px;
+    height: 570px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../img/header.png), lightgray 50% / cover no-repeat;
+}
+
+.head-card{
+    border-radius: 10px;
+    background: linear-gradient(90deg, #FFF 0%, #FFF 100%);
+    backdrop-filter: blur(10px);
+    width: 25rem;
+    height: 25rem;
+    align-items: center;
+    flex-shrink: 0;
+    z-index: 1;
+    border: none !important;
+    margin-top: 45%;
+    margin-left: 25%;
+}
+
+.head-card .head-text{
+    color: var(--primary-color);
+    font-family: 'theme-font-black', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.head-card .head-text-2{
+    color: var(--primary-color);
+    font-family: 'theme-font-black', sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+
+.head-card .sub-text{
+    color: var(--primary-color);
+    text-align: center;
+    font-family: Neue Haas Unica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.head-card .sub-text-2{
+    color: var(--primary-color);
+    text-align: center;
+    font-family: Neue Haas Unica;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: -1%;
+}
+
+.head-card .btn-head{
+    margin-top: 2%;
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--primary-color);   
+}
+
+
+.btn-head:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-head:focus, .btn-head.focus {
+    box-shadow: 0 0 0 0.2rem rgb(139, 113, 112);;
+}
+
+.btn-text{
+    color: #8B7170;
+    text-align: center;
+    font-family: Neue Haas Unica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 117.647% */
+}
+
+.para-text{
+    color: #8B7170;
+    text-align: center;
+    font-family: Neue Haas Unica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 117.647% */
+    margin-top: 4%;
+}
+
+.headline{
+    color: #000;
+    text-align: center;
+    font-family: Neue Haas Unica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 4%;
+    line-height: normal;
+
+}
+
+.rera{
+    color: #000;
+    font-family: Neue Haas Unica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 5%;
+    line-height: normal;
+}
+
+.carousel-card{
+    margin-right: 15%;
+    margin-left: -3%;
+}
+
+/* Form */
+
+.btn-form{
+    width: 170px;
+    height: 35px;
+    margin-top: 3%;
+    margin-left: 6%;
+    flex-shrink: 0;
+    font-size: .8rem;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-form-2{
+    width: 170px;
+    height: 35px;
+    margin-top: 3%;
+    flex-shrink: 0;
+    font-size: .8rem;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-card{
+    width: 380px;
+    height: 570px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    position: fixed;
+    margin-top: 7%;
+    background: #FFF;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25), -2px -2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-head{
+    color: #000;
+    font-family: Neue Haas Unica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4%;
+    text-decoration-line: underline;
+}
+
+.form-input{
+    flex-shrink: 0;
+    margin: 1rem 1.5rem;
+    height: 28%;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-check{
+    padding-top: 5rem;
+    position: relative;
+    display: block;
+    padding-left: 2.25rem;
+}
+
+
+.form-check-input {
+    position: absolute;
+    margin-top: 1.8rem;
+    margin-left: -1.25rem;
+}
+
+.form-check-label {
+    margin-bottom: 0;
+    color: #000;
+    font-family: Neue Haas Unica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.btn-form-submit{
+    width: 325px;
+    height: 50px !important;
+    margin-top: 2%;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Neue Haas Unica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 125% */
+    border-radius: 10px;
+    background: linear-gradient(90deg, #8B7170 0%, #DBB9B7 100%);
+}
+
+
+.btn-down{
+    margin-left: -10% !important;
+    margin-top: 2%;
+}
+
+.btn-chat-2{
+    border-radius: 10px;
+    background: #8B7170;
+    width: 50%;
+    height: 3rem;
+    color: #fff;
+}
+
+.btn-chat{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.connect{
+    min-height: 750px;
+}
+
+/* Overview */
+
+.card-overiew{
+    border-radius: 10px;
+    border: 3px solid #D9D9D9;
+    background: #FFF;
+}
+
+.head-over{
+    color: #8B7170;
+    text-align: justify;
+    font-family: Neue Haas Unica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: -1%;
+    line-height: normal;
+}
+
+.sub-head-over{
+    color: #8B7170;
+    font-family: Neue Haas Unica;
+    font-size: 25px;
+    margin-top: 2%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.span-over{
+    color: #8B7170;
+    font-family: Neue Haas Unica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.para{
+    color: #000;
+    text-align: justify;
+    font-family: Neue Haas Unica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;;
+}
+
+.btn-download{
+    width: 30%;
+    height: 3rem;
+    color: #000;
+    border-radius: 10px;
+    border: 2px solid #8B7170;
+    background: #FFF;
+}
+
+.nav-tabs .nav-link{
+    border-radius: 10px 10px 0px 0px;
+    background: #FFF;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    color: #747171;
+    text-align: center;
+    font-family: Neue Haas Unica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.nav-tabs{
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 5px solid #8B7170;
+    color: #8B7170;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #8B7170;
+    text-align: justify;
+    font-family: Neue Haas Unica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent !important;
+    border-bottom: 4px solid #8b7170;
+    border-radius: 0 !important;
+}
+
+
+.nav-pills .nav-link {
+    color: #747171;
+    text-align: justify;
+    font-family: Neue Haas Unica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-pills{
+    border-bottom: 2px solid #D9D9D9;;
+}
+
+.float-text-left{
+    color: #000;
+    font-family: Neue Haas Unica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.float-text-left-2{
+    color: #000;
+    font-family: Neue Haas Unica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.float-text-right{
+    color: #000;
+    font-family: Neue Haas Unica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 4%;
+}
+
+.img-center{
+    align-items: center;
+    display: flex;
+    margin-left: -15%;
+    justify-content: center;;
+}
+
+
+.blury{
+    width: 319px;
+    height: 236px;
+    border-radius: 7.895px;
+    background: rgba(255, 255, 255, 0.01);
+    filter: blur(5px);
+    backdrop-filter: blur(7.8947367668151855px);
+}
+
+.blury:hover{
+    filter: blur(0px);
+    cursor: none;
+}
+
+
+.btn-contact{
+    border-radius: 10px;
+    background: #8B7170;
+    margin-top: 5%;
+    width: 237px;
+    color: #FFF;
+    height: 49px;
+}
+
+.footer-line{
+    background: #D9D9D9;
+    height: 5px; /* Set the height of the horizontal rule */
+    border: none; /* Remove the default border */
+    margin: 20px auto; 
+}
+
+.foot-text{
+    color: #8B7170;
+    font-family: Neue Haas Unica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-header{
+    background: #FFF;
+    padding-top: 3%;
+    color: #8B7170;
+    text-align: justify;
+    font-family: Neue Haas Unica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.img-centered{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-line-2{
+    background: #D9D9D9;
+    height: 5px; /* Set the height of the horizontal rule */
+    border: none; /* Remove the default border */
+    width: 90%;
+    padding-left: 1%;
+}
+
+.footer-text{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #8B7170;
+    text-align: justify;
+    font-family: Neue Haas Unica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.layout-img{
+    width: 235px;
+    height: 171px;
+}
+
+.card-cost{
+    min-height: 297px; 
+    border-radius: 10px;
+    border: 2px solid #D9D9D9;
+}
+
+.amenities h5{
+    color: #8B7170;
+    text-align: justify;
+    font-family: Neue Haas Unica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 3%;
+    margin-top: 2%;
+    line-height: normal;
+}
+
+.amenities, .card-plan, .card-overview{
+    border-radius: 10px;
+    border: 2px solid #D9D9D9 !important;
+}
+
+.centered-container {
+    text-align: center; /* Center its contents horizontally */
+    
+  }
+
+  .inline-block-element {
+    display: inline-block; /* Display the element as inline-block */
+    padding: 10px;
+    margin: 10px; /* Add some margin for spacing */
+    color: #000;
+    font-family: Neue Haas Unica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .float-left{
+    margin-left: 5%;
+  }
+
+  .float-right{
+    margin-right: 5%;
+  }
+  
+  .btn-many{
+    border-radius: 5px;
+    background: #8B7170;
+    color: #fff !important;
+  }
+  
+  .btn-downl{
+    border-radius: 7.168px;
+    border: 1.434px solid #8B7170;
+    background: #FFF;
+  }
+
+
