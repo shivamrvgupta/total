@@ -1,0 +1,284 @@
+/* For Screen 1920 to 1600 */
+
+
+@media (max-width: 1350px){
+    .overlay{
+        left: 8.4%;
+    }
+    .slider-box img {
+        max-width: 400px;
+        height: 220px;
+        margin: 1%;
+    }
+    .carousel-item {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px){
+    .form-card{
+        position: static
+    }
+    .overlay{
+        left: 3.7%;
+    }
+    .slider-box img {
+        max-width: 400px;
+        height: 205px;
+        margin: 1%;
+    }
+    .carousel-item {
+        width: 80%;
+    }
+    .form-card{
+        height: 59%;
+    }
+    .btn-form {
+        width: 150px;
+        height: 30px;
+        margin-top: 2%;
+        margin-left: 8%;
+        flex-shrink: 0;
+        font-size: 0.8rem;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .btn-chat-2 {
+        border-radius: 10px;
+        background: #8B7170;
+        width: 56%;
+        height: 3rem;
+        color: #fff;
+    }
+    .btn-form-2 {
+        width: 150px;
+        height: 30px;
+        margin-top: 2%;
+        flex-shrink: 0;
+        font-size: 0.7rem;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .form-card{
+        width: 340px;
+    }
+    .form-head{
+        font-size: 18px;
+    }
+    .input-1{
+        left: 10.4rem;
+        top: 1.75rem;
+    }
+    .input-1 input{
+        width: 245px;
+        padding: 0;
+    }
+    .input-2{
+        left: 10.4rem;
+        top: 2.25rem;
+    }
+    .input-2 input{
+        width: 245px;
+        padding: 0;
+    }
+    .input-3{
+        left: 10.4rem;
+        top: 2.75rem;
+    }
+    .input-3 input{
+        width: 245px;
+        padding: 0;
+    }
+    .form-input{
+        height: 26%;
+    }
+    .form-check {
+        padding-top: 4rem;
+        position: relative;
+        display: block;
+        padding-left: 1.25rem;
+    }
+    .form-check-label {
+        margin-bottom: 0;
+        color: #000;
+        font-family: Neue Haas Unica;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .btn-form-submit {
+        width: 290px;
+    }
+    nav ul {
+        margin-left: -1.5%;
+        padding: 0px 15px;
+        margin-top: 1%;
+    }
+    nav ul li {
+        margin: 20px 15px;
+        font-size: 19.5px !important
+    }
+}
+
+@media (min-width: 1200px){
+    .overlay{
+        left: 3.7%;
+    }
+    .slider-box img {
+        max-width: 400px;
+        height: 205px;
+        margin: 1%;
+    }
+    .carousel-item {
+        width: 80%;
+    }
+    .form-card{
+        height: 59%;
+    }
+    .btn-form {
+        width: 150px;
+        height: 30px;
+        margin-top: 2%;
+        margin-left: 8%;
+        flex-shrink: 0;
+        font-size: 0.8rem;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .btn-chat-2 {
+        border-radius: 10px;
+        background: #8B7170;
+        width: 56%;
+        height: 3rem;
+        color: #fff;
+    }
+    .btn-form-2 {
+        width: 150px;
+        height: 30px;
+        margin-top: 2%;
+        flex-shrink: 0;
+        font-size: 0.7rem;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .form-card{
+        width: 340px;
+    }
+    .form-head{
+        font-size: 18px;
+    }
+    .input-1{
+        left: 10.4rem;
+        top: 1.75rem;
+    }
+    .input-1 input{
+        width: 245px;
+        padding: 0;
+    }
+    .input-2{
+        left: 10.4rem;
+        top: 2.25rem;
+    }
+    .input-2 input{
+        width: 245px;
+        padding: 0;
+    }
+    .input-3{
+        left: 10.4rem;
+        top: 2.75rem;
+    }
+    .input-3 input{
+        width: 245px;
+        padding: 0;
+    }
+    .form-input{
+        height: 26%;
+    }
+    .form-check {
+        padding-top: 4rem;
+        position: relative;
+        display: block;
+        padding-left: 1.25rem;
+    }
+    .form-check-label {
+        margin-bottom: 0;
+        color: #000;
+        font-family: Neue Haas Unica;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .btn-form-submit {
+        width: 290px;
+    }
+    nav ul {
+        margin-left: -1.5%;
+        padding: 0px 15px;
+        margin-top: 1%;
+    }
+    nav ul li {
+        margin: 20px 15px;
+        font-size: 19.5px !important
+    }
+}
+
+@media (min-width: 1250px){
+    .overlay{
+        left: 5.4%;
+    }
+    .slider-box img {
+        max-width: 400px;
+        height: 213px;
+        margin: 1%;
+    }
+    .carousel-item {
+        width: 90%;
+    }
+}
+@media (min-width: 1400px){
+    .overlay{
+        left: 10.3%;
+    }
+    .slider-box img {
+        max-width: 400px;
+        height: 238px;
+        margin: 1%;
+    }
+}
+@media (min-width: 1500px){
+    .overlay{
+        left: 13.2%;
+    }
+}
+@media (min-width: 1600px){
+    .overlay{
+        left: 19.2%;
+    }
+}
+@media (min-width: 1700px){
+    .overlay{
+        left: 19.2%;
+    }
+}
+
+@media (min-width: 1800px){
+    .overlay{
+        left: 19.2%;
+    }
+}
+@media (min-width: 1920px){
+    .overlay{
+        left: 21.2%;
+    }
+}
+
+
+
