@@ -16,8 +16,24 @@
 }
 
 @media (max-width: 400px){
-    .form-card{
-        position: static
+    #clickableImg {
+        height: 100%;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .overlay{
+        content: hide;
+        display: none;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 45%;
+    }
+    .head-card{
+        width: 12rem;
+        height: 12rem;
+        margin-top: 75%;
+        margin-left: 25%;
     }
     .overlay{
         left: 3.7%;
@@ -27,10 +43,8 @@
         height: 205px;
         margin: 1%;
     }
-    .carousel-item {
-        width: 80%;
-    }
     .form-card{
+        position: static;
         height: 59%;
     }
     .btn-form {

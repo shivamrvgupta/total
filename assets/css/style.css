@@ -787,3 +787,8 @@ nav ul li{
     width: 88%;
     height: 80%;
 }
+
+.centered-container img{
+    width: 100%;
+}
+
