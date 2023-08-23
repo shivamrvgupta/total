@@ -1,5 +1,5 @@
 :root{
-    --primary-color : rgb(139, 113, 112);
+    --primary-color : #8b7170;
     overflow-x: hidden;
 }
 
@@ -72,14 +72,14 @@ nav ul li{
 }
 
 
-.carousel{
+.main-container .carousel{
     width: 600px;
     max-height: 570px ;
     flex-shrink: 0;
     border-radius: 10px;
 }
 
-.head-card{
+.main-container .head-card{
     border-radius: 10px;
     background: linear-gradient(90deg, #FFF 0%, #FFF 100%);
     backdrop-filter: blur(10px);
@@ -226,9 +226,13 @@ nav ul li{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.ml-custom{
+    margin-left: 19% !important;
+}
+
 .form-card{
     width: 100%;
-    height: 570px;
+    height: 63% !important;
     flex-shrink: 0;
     border-radius: 10px;
     position: fixed;
@@ -257,13 +261,21 @@ nav ul li{
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.form-check{
-    padding-top: 5rem;
+.form-check {
+    padding-top: 1rem !important;
     position: relative;
     display: block;
-    padding-left: 2.25rem;
+    padding-left: 17% !important;
+    padding-right: 10% !important;
 }
 
+
+.btn-form {
+    margin-top: 0% !important;
+}
+.btn-form-2 {
+    margin-top: 0% !important;
+}
 
 .form-check-input {
     position: absolute;
@@ -812,7 +824,3 @@ nav ul li{
     border-right-style: none;
 }
 
-
-.form-check input::after{
-    
-}

@@ -10,12 +10,12 @@
         height: 220px;
         margin: 1%;
     }
-    .carousel-item {
+    .main-container .carousel-item {
         width: 90%;
     }
 }
 
-@media (max-width: 400px){
+/* @media (max-width: 400px){
     .main-container{
         width: 100%;
         padding-right: 5%;
@@ -216,6 +216,70 @@
         margin: 20px 15px;
         font-size: 19.5px !important
     }
+} */
+
+@media (max-width: 824px){
+    .main-container{
+        display: none;
+    }
+}
+
+@media (min-width: 825px){
+    .mobile{
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 1920px){
+    .overlay{
+        left: 21.2%;
+    }
+}
+@media (min-width: 1800px){
+    .overlay{
+        left: 19.2%;
+    }
+}
+@media (min-width: 1700px){
+    .overlay{
+        left: 19.2%;
+    }
+}
+@media (min-width: 1600px){
+    .overlay{
+        left: 19.2%;
+    }
+}
+@media (min-width: 1500px){
+    .overlay{
+        left: 13.2%;
+    }
+}
+@media (min-width: 1400px){
+    .overlay{
+        left: 10.3%;
+    }
+    .slider-box img {
+        max-width: 400px;
+        height: 238px;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 1250px){
+    .overlay{
+        left: 5.4%;
+    }
+    .slider-box img {
+        max-width: 400px;
+        height: 213px;
+        margin: 1%;
+    }
+    .main-container .carousel-item {
+        width: 90%;
+    }
 }
 
 @media (min-width: 1200px){
@@ -227,7 +291,7 @@
         height: 205px;
         margin: 1%;
     }
-    .carousel-item {
+    .main-container .carousel-item {
         width: 80%;
     }
     .form-card{
@@ -324,55 +388,8 @@
     }
 }
 
-@media (min-width: 1250px){
-    .overlay{
-        left: 5.4%;
-    }
-    .slider-box img {
-        max-width: 400px;
-        height: 213px;
-        margin: 1%;
-    }
-    .carousel-item {
-        width: 90%;
-    }
-}
-@media (min-width: 1400px){
-    .overlay{
-        left: 10.3%;
-    }
-    .slider-box img {
-        max-width: 400px;
-        height: 238px;
-        margin: 1%;
-    }
-}
-@media (min-width: 1500px){
-    .overlay{
-        left: 13.2%;
-    }
-}
-@media (min-width: 1600px){
-    .overlay{
-        left: 19.2%;
-    }
-}
-@media (min-width: 1700px){
-    .overlay{
-        left: 19.2%;
-    }
-}
 
-@media (min-width: 1800px){
-    .overlay{
-        left: 19.2%;
-    }
-}
-@media (min-width: 1920px){
-    .overlay{
-        left: 21.2%;
-    }
-}
+
 
 
 
