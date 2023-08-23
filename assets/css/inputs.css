@@ -1,6 +1,3 @@
-
-
-
 .login-box .user-box {
   position: relative;
 }
@@ -16,6 +13,7 @@
   outline: none;
   background: transparent;
 }
+
 .login-box .user-box label {
   position: absolute;
   top:0;

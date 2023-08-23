@@ -1,46 +1,9 @@
- /* Small devices (landscape phones) */
-
- @media (min-width: 576px) {
-}
-
-/* Medium devices (tablets) */
 
 @media (min-width: 768px) {
     .mobile{
         display: none;
     }
-    
 }
-
-/* Large devices (desktops) */
-
-@media (min-width: 992px) {
-}
-
-/* Extra large devices (large desktops) */
-
-@media (min-width: 1200px) {
-}
-
-/* Extra large devices (large desktops) */
-
-@media (min-width: 1400px) {
-}
-
-/* Extra large devices (large desktops) */
-
-@media (min-width: 1500px) {
-}
-/* Extra large devices (large desktops) */
-
-@media (min-width: 1800px) {
-}
-
-
-@media (min-width: 1920px) {
-}
-
-/* The given screen size or smaller */
 
 /* Extra small devices (portrait phones)*/
 
@@ -64,4 +27,104 @@
 
 /* Large devices (desktops)*/
 
-@media (max-width: 1199px) {}
+@media (max-width: 1259px) {
+    .main-container .head-card {
+        border-radius: 10px;
+        background: linear-gradient(90deg, #FFF 0%, #FFF 100%);
+        backdrop-filter: blur(10px);
+        width: 20rem;
+        height: 20rem;
+        align-items: center;
+        flex-shrink: 0;
+        z-index: 1;
+        border: none !important;
+        margin-top: 47%;
+        margin-left: 20%;
+    }
+    .head-card .head-text {
+        font-size: 16px ;
+    }
+    .head-card .head-text-2{
+        font-size: 14px ;
+    }
+    .head-card .sub-text {
+        font-size: 14px ;
+    }
+    .head-card .sub-text-2 {
+        font-size: 14px ;
+    }
+
+    .head-card .btn-head {
+        width: 175px;
+        height: 25px;
+        line-height: .8;
+        font-size: 0.8rem;
+    }
+    .para-text{
+        font-size: 12px;
+    }
+    .headline{
+        font-size: 14px;
+        margin-top: 2%;
+    }
+    .rera{
+        font-size: 12px;
+        margin: 0;
+    }
+    nav ul {
+        margin-left: -1.5%;
+        padding: 5px 0px;
+        margin-top: 1%;
+    }
+    nav ul li {
+        font-size: 19.5px;
+    }
+    .head-over{
+        font-size: 25px;
+    }
+    .sub-head-over {
+        font-size: 20px;
+        margin-top: 1%;
+    }
+    .para{
+        font-size: 17px;
+    }
+    .nav-tabs .nav-link {
+        font-size: 18px;
+    }
+    .nav-pills .nav-link {
+        font-size: 16px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 16px;
+    }
+    .float-text-left-2{
+        font-size: 17px;
+    }
+    .float-text-right{
+        font-size: 17px;
+    }
+
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1300px) {
+}
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1400px) {
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1500px) {
+}
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1800px) {
+}
+
+
+@media (min-width: 1920px) {
+}
