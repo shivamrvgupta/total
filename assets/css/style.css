@@ -519,8 +519,7 @@ nav ul li a:hover{
   /* Card Gallery */
 
 
-
-.card-gallery{
+  .card-gallery{
     margin-top: 3rem;
 }
 
@@ -627,4 +626,19 @@ nav ul li a:hover{
 
 .negative{
     margin-left: -2%;
+}
+
+/* Video */
+
+
+.video h5{
+    color: #8B7170;
+    text-align: justify;
+    font-family: Neue Haas Unica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 3%;
+    margin-top: 2%;
+    line-height: normal;
 }

@@ -119,6 +119,15 @@
 /* Extra large devices (large desktops) */
 
 @media (min-width: 1500px) {
+    .header {
+        max-height: 650px;
+    }
+    .carousel-item {
+        width: 80%;
+    }
+    .main-container .head-card {
+        margin-top: 20%;
+    }
 }
 /* Extra large devices (large desktops) */
 
