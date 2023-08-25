@@ -48,7 +48,7 @@
 @media (max-width:1500px){
     .main-container .head-card{
         width: 26rem;
-        height: 26rem;
+        height: 28rem;
         margin-top: 30%;
     }
     .header {
@@ -95,7 +95,12 @@
     }
 }
 
-@media (max-width:1400px){
+@media (max-width:1460px){
+    .main-container .head-card{
+        width: 26rem;
+        height: 28rem;
+        margin-top: 20%;
+    }
 }
 
 @media (max-width:1350px){
