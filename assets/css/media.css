@@ -101,7 +101,54 @@
 @media (max-width:1350px){
 }
 @media (max-width:1250px){
+    .btn-form {
+        width: 100%;
+        height: 38px;
+        font-size: .68rem;
+        border-radius: 10px;
+        background: #FFF;
+        border: 2px solid #8b717075;
+    }
+    .main-container .head-card {
+        width: 19rem;
+        height: 19rem;
+        margin-top: 30%;
+    }
+    .head-card .head-text {
+        font-size: 19px ;
+    }
+    .head-card .head-text-2{
+        font-size: 15px ;
+    }
+    .head-card .sub-text {
+        font-size: 15px ;
+        margin-top: 0%;
+    }
+    .head-card .sub-text-2 {
+        font-size: 16px ;
+        margin-top: 0%;
+    }
 
+    .head-card .btn-head {
+        width: 200px;
+        height: 50px;
+        font-size: 1rem;
+        font-weight: 800;
+        margin-top: 1%;
+
+    }
+    .para-text{
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .headline{
+        font-size: 14px;
+        margin-top: 1%;
+    }
+    .rera{
+        font-size: 13px;
+        margin-top: 0%;
+    }
 }
 
 @media (max-width:1150px){}
